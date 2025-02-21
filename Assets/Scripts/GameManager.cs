@@ -6,11 +6,14 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     public GameObject enemyPrefab;
-    public GameObject starPrefab; // Add this line
+    public GameObject starPrefab;
     public float minInstantiateValue;
     public float maxInstantiateValue;
     public float enemyDestroyTime = 5f;
     public float starDestroyTime = 5f;
+
+    [Header("Asteroid Sprites")]
+    public Sprite[] asteroidSprites; // Add this line
 
     [Header("Partice Effects")]
     public GameObject explosionEffect;
@@ -53,6 +56,14 @@ public class GameManager : MonoBehaviour
     {
         Vector3 enemypros = new Vector3(Random.Range(minInstantiateValue, maxInstantiateValue), 6f);
         GameObject enemy = Instantiate(enemyPrefab, enemypros, Quaternion.Euler(0f, 0f, 180f));
+
+        // Randomly select a sprite from the array and assign it to the enemy
+        SpriteRenderer spriteRenderer = enemy.GetComponent<SpriteRenderer>();
+        if (spriteRenderer != null && asteroidSprites.Length > 0)
+        {
+            spriteRenderer.sprite = asteroidSprites[Random.Range(0, asteroidSprites.Length)];
+        }
+
         Destroy(enemy, enemyDestroyTime);
     }
 
@@ -104,4 +115,3 @@ public class GameManager : MonoBehaviour
         ScoreText.text = "Score: " + score;
     }
 }
-

@@ -1164,6 +1164,13 @@ MonoBehaviour:
   maxInstantiateValue: 7
   enemyDestroyTime: 3
   starDestroyTime: 5
+  asteroidSprites:
+  - {fileID: 21300000, guid: ee8261317c1ff734daa9da91d24312b3, type: 3}
+  - {fileID: 21300000, guid: 0f3a720ed8c07f14ea6b92d6fefc8c0c, type: 3}
+  - {fileID: 21300000, guid: a44af304548cb7b4aadb97582f60d728, type: 3}
+  - {fileID: 21300000, guid: f254e398beb012142a24633fa2b82def, type: 3}
+  - {fileID: 21300000, guid: 06ebc3b6f7d199745ac6895e9d0f2e09, type: 3}
+  - {fileID: 21300000, guid: 9a04f6cfae75c064997fb1ddf1827c86, type: 3}
   explosionEffect: {fileID: 100002, guid: cafecd3fc3b761c45bb1553f35cf5c96, type: 3}
   muzzleFlash: {fileID: 100002, guid: 565cdc2ed7b030a41accd8f00ae59a50, type: 3}
   StartMenu: {fileID: 1631942814}
