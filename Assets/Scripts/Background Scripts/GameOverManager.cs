@@ -20,7 +20,7 @@ public class GameOverManager : MonoBehaviour
     void QuitGame()
     {
         Debug.Log("Exiting game...");
-        UnityEditor.EditorApplication.isPlaying = false; 
+        //UnityEditor.EditorApplication.isPlaying = false; 
         Application.Quit();
     }
     void PlayAgain()
