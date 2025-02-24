@@ -878,7 +878,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cab8c369e1ae314792ea510a6880999, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delayTime: 30
+  delayTime: 10
   items:
   - {fileID: 7352936688208111796, guid: 2b77e5e3af1784e44bbe1b61e050199a, type: 3}
   - {fileID: 5990770410489856930, guid: 13e0ed1fac10bdb49b5c577fd15cf9b1, type: 3}
@@ -908,7 +908,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8527acc01d3378b42bce81f38cf670a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delayTime: 10
+  delayTime: 5
   items:
   - {fileID: 7067626236180375052, guid: e51143ddbd186ea4cad611736de63f01, type: 3}
 --- !u!1 &1330075709

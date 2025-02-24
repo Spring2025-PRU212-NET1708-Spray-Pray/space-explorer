@@ -129,7 +129,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.4, y: 1.22}
+    oldSize: {x: 0.93333334, y: 0.81333333}
     newSize: {x: 0.7, y: 0.61}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -177,8 +177,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemySpeed: 0.5
-  health: 15
-  scoreValue: 20
+  health: 20
+  scoreValue: 10
   explosionEffect: {fileID: 1867891735910646588, guid: c81889263190e1841b7e724f30ad75c1, type: 3}
   player: {fileID: 5636023609170405132, guid: 3ac5ae56ad49d484ba37fbc63371e347, type: 3}
   blowSound: {fileID: 0}
@@ -221,7 +221,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.4, y: 1.22}
+    oldSize: {x: 0.93333334, y: 0.81333333}
     newSize: {x: 0.7, y: 0.61}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

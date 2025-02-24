@@ -176,9 +176,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91118bf9fd2b1204c849d268d42c41e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemySpeed: 1
-  health: 5
-  scoreValue: 10
+  enemySpeed: 0.5
+  health: 10
+  scoreValue: 2
   explosionEffect: {fileID: 1867891735910646588, guid: c81889263190e1841b7e724f30ad75c1, type: 3}
   player: {fileID: 0}
   blowSound: {fileID: 8300000, guid: e2370de9cc9c15b44aeaf900d2577992, type: 3}
