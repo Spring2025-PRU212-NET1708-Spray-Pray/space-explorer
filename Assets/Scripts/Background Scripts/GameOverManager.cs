@@ -15,12 +15,12 @@ public class GameOverManager : MonoBehaviour
 
         // Xử lý nút Play Again
         playAgainButton.onClick.AddListener(() => PlayAgain());
-        exitButton.onClick.AddListener(QuitGame);
+        //exitButton.onClick.AddListener(QuitGame);
     }
     void QuitGame()
     {
         Debug.Log("Exiting game...");
-        //UnityEditor.EditorApplication.isPlaying = false; 
+        UnityEditor.EditorApplication.isPlaying = false; 
         Application.Quit();
     }
     void PlayAgain()

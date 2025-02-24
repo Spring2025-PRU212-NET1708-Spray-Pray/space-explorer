@@ -31,7 +31,7 @@ public class Bullet : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-       audioManager.PlaySFX(audioManager.fireSound);
+       audioManager.PlaySFX(audioManager.fire);
     }
 
     // Update is called once per frame

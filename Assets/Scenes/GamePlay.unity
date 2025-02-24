@@ -421,6 +421,18 @@ PrefabInstance:
       value: 41.941
       objectReference: {fileID: 0}
     - target: {fileID: 7440429397607384770, guid: 29912c6bba583b949ab745b282061ad3, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440429397607384770, guid: 29912c6bba583b949ab745b282061ad3, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440429397607384770, guid: 29912c6bba583b949ab745b282061ad3, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440429397607384770, guid: 29912c6bba583b949ab745b282061ad3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -450,11 +462,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7440429397607384770, guid: 29912c6bba583b949ab745b282061ad3, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -237.7
+      value: 10.6
       objectReference: {fileID: 0}
     - target: {fileID: 7440429397607384770, guid: 29912c6bba583b949ab745b282061ad3, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 204.03
+      value: 215
       objectReference: {fileID: 0}
     - target: {fileID: 7440429397607384770, guid: 29912c6bba583b949ab745b282061ad3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1139,10 +1151,10 @@ MonoBehaviour:
   musicAudioSource: {fileID: 494151243}
   vfxAudioSource: {fileID: 1027426302}
   musicClip: {fileID: 8300000, guid: 85baeb4cf6393de4e91938f586820a69, type: 3}
-  fireSound: {fileID: 8300000, guid: 85baeb4cf6393de4e91938f586820a69, type: 3}
-  boost: {fileID: 8300000, guid: 85baeb4cf6393de4e91938f586820a69, type: 3}
+  fire: {fileID: 8300000, guid: 85baeb4cf6393de4e91938f586820a69, type: 3}
+  boost: {fileID: 8300000, guid: 8d25f782fcd55384fa1c33310d47f083, type: 3}
   explosion: {fileID: 8300000, guid: 36b16062a5709a046a0cdc3e07f9bd55, type: 3}
-  gameOver: {fileID: 8300000, guid: 85baeb4cf6393de4e91938f586820a69, type: 3}
+  gameOver: {fileID: 8300000, guid: 38eb3affe722af34c85bc2e5604fb7e1, type: 3}
 --- !u!4 &1851094776
 Transform:
   m_ObjectHideFlags: 0
@@ -1234,11 +1246,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5109281927147616141, guid: 1c26b59062946ae4192f44e3daf56ab3, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -260
+      value: -689
       objectReference: {fileID: 0}
     - target: {fileID: 5109281927147616141, guid: 1c26b59062946ae4192f44e3daf56ab3, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 164.11
+      value: 350
       objectReference: {fileID: 0}
     - target: {fileID: 5109281927147616141, guid: 1c26b59062946ae4192f44e3daf56ab3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
