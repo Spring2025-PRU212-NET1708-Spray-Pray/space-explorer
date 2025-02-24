@@ -4,9 +4,12 @@
 TagManager:
   serializedVersion: 3
   tags:
+  - Ship1
+  - Ship2
   - Enemy
-  - Projectile
-  - Star
+  - Upgrade Bullet Item
+  - Audio
+  - Star Item
   layers:
   - Default
   - TransparentFX
@@ -43,6 +46,9 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 2344782295
     locked: 0
   m_RenderingLayers:
   - Default
