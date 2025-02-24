@@ -622,7 +622,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 0.4
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1150,7 +1150,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicAudioSource: {fileID: 494151243}
   vfxAudioSource: {fileID: 1027426302}
-  musicClip: {fileID: 8300000, guid: 85baeb4cf6393de4e91938f586820a69, type: 3}
+  musicClip: {fileID: 8300000, guid: b34c3f9b46ebf724683118f2838b88e9, type: 3}
   fire: {fileID: 8300000, guid: 85baeb4cf6393de4e91938f586820a69, type: 3}
   boost: {fileID: 8300000, guid: 8d25f782fcd55384fa1c33310d47f083, type: 3}
   explosion: {fileID: 8300000, guid: 36b16062a5709a046a0cdc3e07f9bd55, type: 3}

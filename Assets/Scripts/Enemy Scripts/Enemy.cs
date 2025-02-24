@@ -155,9 +155,10 @@ public class Enemy : MonoBehaviour
 
     IEnumerator PlayBlowSoundThenGameOver(GameObject playerShip)
     {
-        audioSource.clip = blowSound;
-        audioSource.volume = 3.0f;
-        audioSource.Play();
+        //audioSource.clip = blowSound;
+        //audioSource.volume = 3.0f;
+        //audioSource.Play();
+        audioManager.PlaySFX(audioManager.gameOver);
         yield return new WaitForSeconds(1);
         GameOver(playerShip);
     }

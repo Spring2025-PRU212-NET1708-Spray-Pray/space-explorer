@@ -154,7 +154,7 @@ MonoBehaviour:
   fire: {fileID: 8300000, guid: 097c8ee03251aa248bba65cca72bbbdd, type: 3}
   boost: {fileID: 8300000, guid: 63aed00a0a9043241bf6570d978a2969, type: 3}
   explosion: {fileID: 8300000, guid: 36b16062a5709a046a0cdc3e07f9bd55, type: 3}
-  gameOver: {fileID: 8300000, guid: 7f09140fd1e6b9a439ca5379d3d51c09, type: 3}
+  gameOver: {fileID: 8300000, guid: 38eb3affe722af34c85bc2e5604fb7e1, type: 3}
 --- !u!4 &139010207
 Transform:
   m_ObjectHideFlags: 0

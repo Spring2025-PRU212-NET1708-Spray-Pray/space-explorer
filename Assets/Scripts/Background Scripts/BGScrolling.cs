@@ -5,8 +5,13 @@ public class BGScrolling : MonoBehaviour
     public float scrollSpeed;
 
     private Material material;
+    private Vector2 offset = Vector2.zero;
 
-    private Vector3 offset = Vector3.zero;
+    private void Awake()
+    {
+        material = GetComponent<Renderer>().material;
+        offset = material.GetTextureOffset("_MainTex");
+    }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -17,13 +22,7 @@ public class BGScrolling : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //offset.x += scrollSpeed * Time.deltaTime;
         offset.y += scrollSpeed * Time.deltaTime;
         material.SetTextureOffset("_MainTex", offset);
-    }
-
-    private void Awake()
-    {
-        material = GetComponent<Renderer>().material;
     }
 }
