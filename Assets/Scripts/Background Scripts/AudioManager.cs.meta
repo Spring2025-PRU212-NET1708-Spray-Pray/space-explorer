@@ -1,2 +1,18 @@
 fileFormatVersion: 2
 guid: c44529c6dd25f6a459842308a5be925f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - musicAudioSource: {instanceID: 0}
+  - vfxAudioSource: {instanceID: 0}
+  - musicClip: {instanceID: 0}
+  - fire: {instanceID: 0}
+  - boost: {instanceID: 0}
+  - explosion: {instanceID: 0}
+  - gameOver: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

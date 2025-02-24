@@ -6,7 +6,7 @@ public class AudioManager : MonoBehaviour
     public AudioSource vfxAudioSource;
 
     public AudioClip musicClip;
-    public AudioClip fire;
+    public AudioClip fireSound;
     public AudioClip boost;
     public AudioClip explosion;
     public AudioClip gameOver;

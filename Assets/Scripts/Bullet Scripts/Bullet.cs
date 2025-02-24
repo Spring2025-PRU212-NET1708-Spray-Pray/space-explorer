@@ -10,10 +10,10 @@ public class Bullet : MonoBehaviour
     public float damage;
 
     // Thêm biến âm thanh
-    public AudioClip fireSound;  // Lưu trữ tệp âm thanh khi bắn
     public AudioClip hitSound; //sound khi trung enemy
 
     private AudioSource audioSource; // Component phát âm thanh
+    private AudioManager audioManager;
 
     private void Awake()
     {
@@ -25,17 +25,13 @@ public class Bullet : MonoBehaviour
         // Tạo AudioSource
         audioSource = gameObject.AddComponent<AudioSource>();
         audioSource.playOnAwake = false; // Không phát ngay khi game bắt đầu
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        // Phát âm thanh khi viên đạn được tạo
-        if (fireSound != null)
-        {
-            audioSource.PlayOneShot(fireSound);
-        }
-
+       audioManager.PlaySFX(audioManager.fireSound);
     }
 
     // Update is called once per frame
