@@ -35,9 +35,6 @@ public class Enemy : MonoBehaviour
         if (!player)
             player = GameObject.FindAnyObjectByType<Plane>();
 
-        if (isFollowingPlayer == 0)
-            isFollowingPlayer = UnityEngine.Random.Range(-3, 5);
-
         Vector3 screenBounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, 0, 0));
         minY = screenBounds.y;
         audioSource = gameObject.AddComponent<AudioSource>();
@@ -75,22 +72,6 @@ public class Enemy : MonoBehaviour
         }
     }
 
-
-    void Update()
-    {
-        if (isFollowingPlayer > 0 && player != null)
-        {
-            FollowPlayer();
-        }
-        if (transform.position.y < minY)
-        {
-            Destroy(gameObject);
-            if (healthBarTransform != null)
-            {
-                Destroy(healthBarTransform.gameObject);
-            }
-        }
-    }
 
     public void TakeDamage(float damage)
     {
