@@ -15,8 +15,6 @@ public class Plane : MonoBehaviour
 
     private GameObject flame;
 
-
-
     private void Awake()
     {
         // Get the Rigidbody2D component attached to the plane
@@ -28,7 +26,8 @@ public class Plane : MonoBehaviour
 
     void Start()
     {
-
+        // Ensure the plane's scale is set correctly at the start
+        transform.localScale = new Vector3(1, 1, 1);
     }
 
     void Update()
@@ -59,10 +58,8 @@ public class Plane : MonoBehaviour
         }
     }
 
-
     private void PlaneMovement()
     {
-
         float moveHorizontal = Input.GetAxis("Horizontal");
         float moveVertical = Input.GetAxis("Vertical");
         Vector2 movement = new Vector2(moveHorizontal, moveVertical);
@@ -103,7 +100,6 @@ public class Plane : MonoBehaviour
         }
     }
 
-
     private void ToggleFlame(bool isActive)
     {
         if (flame.activeSelf != isActive)
@@ -115,7 +111,6 @@ public class Plane : MonoBehaviour
 
     private void UpgradeBullet()
     {
-
         bulletLevel++;
     }
 
@@ -137,8 +132,4 @@ public class Plane : MonoBehaviour
     {
         bulletLevel = level;
     }
-
-
-
-
 }
